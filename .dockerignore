@@ -1,0 +1,21 @@
+# Secrets — ne jamais inclure dans l'image
+.env
+.env.local
+
+# Données personnelles
+src/portfolio.json
+
+# Contrôle de version & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Python compilé
+__pycache__/
+*.py[cod]
+*.log
+
+# Documentation (inutile dans le conteneur)
+*.md
+update.md
